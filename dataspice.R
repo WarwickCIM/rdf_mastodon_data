@@ -54,4 +54,4 @@ write_spice()
 
 build_site() # Optional
 
-build_site(template_path = "templates/custom_dataspice_template.Rhtml")
+build_site(template_path = "templates/custom_dataspice_template.html")

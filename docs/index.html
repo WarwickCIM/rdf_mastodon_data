@@ -799,7 +799,7 @@
     {
       "type": "DataDownload",
       "name": "responses_anonymised",
-      "contentUrl": null,
+      "contentUrl": "https://raw.githubusercontent.com/WarwickCIM/rdf_mastodon_data/main/data/responses_anonymised.csv?token=GHSAT0AAAAAAB5OHTRAHOSLZTRH3K3HBD24ZA5QJ3Q",
       "encodingFormat": "csv"
     }
   ]
@@ -831,6 +831,9 @@
 
       th {
         border-bottom: 1px solid black;
+        background-color: white;
+        position: sticky;
+        top: 0; /* Don't forget this, required for the stickiness */
       }
 
       th, td {
@@ -882,6 +885,24 @@
         <td>License</td>
         <td>Creative Commons Attribution-ShareAlike 4.0 International License</td>
       </tr>
+    </table>
+    
+     <h2>Distribution</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>File</th>
+          <th>Format</th>
+          <th>&nbsp;</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><code>responses_anonymised</code></td>
+          <td><code>csv</code></td>
+          <td><a href="https://raw.githubusercontent.com/WarwickCIM/rdf_mastodon_data/main/data/responses_anonymised.csv?token=GHSAT0AAAAAAB5OHTRAHOSLZTRH3K3HBD24ZA5QJ3Q">Download</a></td>
+        </tr>
+      </tbody>
     </table>
 
     <h2>Coverage</h2>
@@ -1548,24 +1569,13 @@
         </tbody>
       </table>
     </div>
-
-    <h2>Distribution</h2>
-    <table>
-      <thead>
-        <tr>
-          <th>File</th>
-          <th>Format</th>
-          <th>&nbsp;</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><code>responses_anonymised</code></td>
-          <td><code>csv</code></td>
-          <td><a href="">Download</a></td>
-        </tr>
-      </tbody>
-    </table>
+    
+    <div>
+      <h2>Licence</h2>
+      <p>
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+      </p>
+    </div>
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
   integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
