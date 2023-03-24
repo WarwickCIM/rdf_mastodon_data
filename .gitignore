@@ -4,3 +4,5 @@
 .Ruserdata
 
 data/raw/
+data/responses_clean.csv
+data/survey_comments.csv
