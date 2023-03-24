@@ -1,15 +1,15 @@
 fileName,variableName,description,unitText
-responses_anonymised.csv,start_date,NA,NA
-responses_anonymised.csv,end_date,NA,NA
-responses_anonymised.csv,progress,NA,NA
-responses_anonymised.csv,duration_in_seconds,NA,NA
-responses_anonymised.csv,recorded_date,NA,NA
-responses_anonymised.csv,response_id,NA,NA
-responses_anonymised.csv,user_language,NA,NA
-responses_anonymised.csv,consent_agreement,NA,NA
-responses_anonymised.csv,user_groups,NA,NA
-responses_anonymised.csv,interests_civil_rights,NA,NA
-responses_anonymised.csv,interests_free_speech,NA,NA
+responses_anonymised.csv,start_date,Date in which the survey was started,Date Time
+responses_anonymised.csv,end_date,Date in which the survey was finished,Date Time
+responses_anonymised.csv,progress,Percentage of completeness,Percentage
+responses_anonymised.csv,duration_in_seconds,Time spent filling the survey,Seconds
+responses_anonymised.csv,recorded_date,Date in which the survey was recorded,Date Time
+responses_anonymised.csv,response_id,Unique Identifier (Randomly generated),String
+responses_anonymised.csv,user_language,Survey Language (Either english or Spanish),String
+responses_anonymised.csv,consent_agreement,Whether the respondent accepts participating in the research or not,Boolean
+responses_anonymised.csv,user_groups,Q5: Do you identify with any of these groups?  Select as many as needed,"String, Factor"
+responses_anonymised.csv,interests_civil_rights,Q6: Could you indicate how important or unimportant the following topics are for you? (Civil Rights),NA
+responses_anonymised.csv,interests_free_speech,Q6: Could you indicate how important or unimportant the following topics are for you? (Free Speech),NA
 responses_anonymised.csv,interests_politics,NA,NA
 responses_anonymised.csv,interests_privacy_security,NA,NA
 responses_anonymised.csv,interests_open_culture,NA,NA
