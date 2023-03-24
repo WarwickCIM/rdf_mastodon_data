@@ -9,13 +9,12 @@ create_spice()
 
 # Creators ----------------------------------------------------------------
 
-
 edit_creators()
 
 
 # Access ------------------------------------------------------------------
 
-prep_access()
+# prep_access()
 
 edit_access()
 
@@ -54,3 +53,5 @@ write_spice()
 
 
 build_site() # Optional
+
+build_site(template_path = "templates/custom_dataspice_template.Rhtml")

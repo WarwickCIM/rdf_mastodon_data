@@ -19,14 +19,14 @@
     }
   ],
   "description": null,
-  "datePublished": null,
-  "keywords": {},
-  "funder": "University of Warwick",
+  "datePublished": "2023-06-01",
+  "keywords": ["mastodon", "twitter", "platform migration", "fediverse", "survey"],
+  "funder": "University of Warwick (Research Development Fund 2022/23)",
   "temporalCoverage": "2023-02-18/2023-03-23",
-  "license": "CC-SA-BY",
+  "license": "Creative Commons Attribution-ShareAlike 4.0 International License",
   "spatialCoverage": {
     "type": "Place",
-    "name": null,
+    "name": "Online distribution",
     "geo": {
       "type": "GeoShape",
       "box": "64.7 173 -41.5 -108"
@@ -35,69 +35,69 @@
   "variableMeasured": [
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "Date Time",
       "name": "start_date",
-      "description": null
+      "description": "Date in which the survey was started"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "Date Time",
       "name": "end_date",
-      "description": null
+      "description": "Date in which the survey was finished"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "Percentage",
       "name": "progress",
-      "description": null
+      "description": "Percentage of completeness"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "Seconds",
       "name": "duration_in_seconds",
-      "description": null
+      "description": "Time spent filling the survey"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "Date Time",
       "name": "recorded_date",
-      "description": null
+      "description": "Date in which the survey was recorded"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String",
       "name": "response_id",
-      "description": null
+      "description": "Unique Identifier (Randomly generated)"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String",
       "name": "user_language",
-      "description": null
+      "description": "Survey Language (Either english or Spanish)"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "Boolean",
       "name": "consent_agreement",
-      "description": null
+      "description": "Whether the respondent accepts participating in the research or not"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "user_groups",
-      "description": null
+      "description": "Q5: Do you identify with any of these groups?  Select as many as needed"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "interests_civil_rights",
-      "description": null
+      "description": "Q6: Could you indicate how important or unimportant the following topics are for you? (Civil Rights)"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "interests_free_speech",
-      "description": null
+      "description": "Q6: Could you indicate how important or unimportant the following topics are for you? (Free Speech)"
     },
     {
       "type": "PropertyValue",
@@ -216,13 +216,13 @@
     {
       "type": "PropertyValue",
       "unitText": null,
-      "name": "mastodon_motivation_i_wanted_to_try_a_new_social_network",
+      "name": "mastodon_motivation_new_social_network",
       "description": null
     },
     {
       "type": "PropertyValue",
       "unitText": null,
-      "name": "mastodon_motivation_most_of_my_friends_and_people_i_follow_are_already_using_mastodon",
+      "name": "mastodon_motivation_friends",
       "description": null
     },
     {
@@ -270,37 +270,37 @@
     {
       "type": "PropertyValue",
       "unitText": null,
-      "name": "mastodon_motivation_ability_to_write_up_to_500_characters_in_a_toot",
+      "name": "mastodon_motivation_500_characters",
       "description": null
     },
     {
       "type": "PropertyValue",
       "unitText": null,
-      "name": "mastodon_motivation_i_m_concerned_about_elon_musk_acquiring_twitter",
+      "name": "mastodon_motivation_elon_musk",
       "description": null
     },
     {
       "type": "PropertyValue",
       "unitText": null,
-      "name": "mastodon_motivation_i_m_concerned_by_latest_events_in_twitter",
+      "name": "mastodon_motivation_twitter_events",
       "description": null
     },
     {
       "type": "PropertyValue",
       "unitText": null,
-      "name": "mastodon_motivation_i_m_concerned_that_twitter_may_dissappear",
+      "name": "mastodon_motivation_twitter_dissappear",
       "description": null
     },
     {
       "type": "PropertyValue",
       "unitText": null,
-      "name": "mastodon_motivation_i_m_dissatisfied_with_twitter_and_mastodon_seemed_like_an_alternative",
+      "name": "mastodon_motivation_twitter_dissatisfaction",
       "description": null
     },
     {
       "type": "PropertyValue",
       "unitText": null,
-      "name": "mastodon_motivation_i_wasn_t_happy_with_truth_social_and_mastodon_seemed_like_an_alternative",
+      "name": "mastodon_motivation_truth_social_dissatisfaction",
       "description": null
     },
     {
@@ -396,25 +396,25 @@
     {
       "type": "PropertyValue",
       "unitText": null,
-      "name": "instance_criteria_instance_s_manager_s",
+      "name": "instance_criteria_managers",
       "description": null
     },
     {
       "type": "PropertyValue",
       "unitText": null,
-      "name": "instance_criteria_number_of_users",
+      "name": "instance_criteria_n_users",
       "description": null
     },
     {
       "type": "PropertyValue",
       "unitText": null,
-      "name": "instance_criteria_free_account_no_subscription_costs",
+      "name": "instance_criteria_free",
       "description": null
     },
     {
       "type": "PropertyValue",
       "unitText": null,
-      "name": "instance_criteria_signup_requires_admin_to_approve_verify_the_account",
+      "name": "instance_criteria_signup_approval",
       "description": null
     },
     {
@@ -426,13 +426,13 @@
     {
       "type": "PropertyValue",
       "unitText": null,
-      "name": "mastodon_experience_harassment_towards_certain_users",
+      "name": "mastodon_experience_harassment",
       "description": null
     },
     {
       "type": "PropertyValue",
       "unitText": null,
-      "name": "mastodon_experience_hate_speech_towards_certain_demographics",
+      "name": "mastodon_experience_hate_speech",
       "description": null
     },
     {
@@ -456,55 +456,55 @@
     {
       "type": "PropertyValue",
       "unitText": null,
-      "name": "mastodon_experience_image_descriptions_text_descriptions_for_visually_impaired",
+      "name": "mastodon_experience_alt_text",
       "description": null
     },
     {
       "type": "PropertyValue",
       "unitText": null,
-      "name": "mastodon_experience_respectful_constructive_conversations",
+      "name": "mastodon_experience_quality_conversations",
       "description": null
     },
     {
       "type": "PropertyValue",
       "unitText": null,
-      "name": "mastodon_rating_mastodon_is_easy_to_use",
+      "name": "mastodon_rating_ease_of_use",
       "description": null
     },
     {
       "type": "PropertyValue",
       "unitText": null,
-      "name": "mastodon_rating_mastodon_is_a_safe_space_for_social_interactions",
+      "name": "mastodon_rating_safe_space",
       "description": null
     },
     {
       "type": "PropertyValue",
       "unitText": null,
-      "name": "mastodon_rating_mastodon_is_welcoming_to_new_users",
+      "name": "mastodon_rating_welcoming",
       "description": null
     },
     {
       "type": "PropertyValue",
       "unitText": null,
-      "name": "mastodon_rating_i_can_find_interesting_and_relevant_content_in_mastodon",
+      "name": "mastodon_rating_content",
       "description": null
     },
     {
       "type": "PropertyValue",
       "unitText": null,
-      "name": "mastodon_rating_i_can_find_interesting_and_relevant_people_in_mastodon",
+      "name": "mastodon_rating_people",
       "description": null
     },
     {
       "type": "PropertyValue",
       "unitText": null,
-      "name": "mastodon_rating_i_trust_my_mastodon_s_server_instance_admin",
+      "name": "mastodon_rating_server_admin",
       "description": null
     },
     {
       "type": "PropertyValue",
       "unitText": null,
-      "name": "mastodon_rating_mastodon_s_social_conventions_contribute_to_make_mastodon_a_better_place",
+      "name": "mastodon_rating_social_conventions",
       "description": null
     },
     {
@@ -582,13 +582,13 @@
     {
       "type": "PropertyValue",
       "unitText": null,
-      "name": "twitter_experience_harassment_towards_certain_users",
+      "name": "twitter_experience_harassment",
       "description": null
     },
     {
       "type": "PropertyValue",
       "unitText": null,
-      "name": "twitter_experience_hate_speech_towards_certain_demographics",
+      "name": "twitter_experience_hate_speech",
       "description": null
     },
     {
@@ -612,13 +612,13 @@
     {
       "type": "PropertyValue",
       "unitText": null,
-      "name": "twitter_experience_image_descriptions_text_descriptions_for_visually_impaired",
+      "name": "twitter_experience_alt_text",
       "description": null
     },
     {
       "type": "PropertyValue",
       "unitText": null,
-      "name": "twitter_experience_respectful_constructive_conversations",
+      "name": "twitter_experience_quality_conversations",
       "description": null
     },
     {
@@ -673,6 +673,120 @@
       "type": "PropertyValue",
       "unitText": null,
       "name": "source",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "start_date",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "end_date",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "ip_address",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "progress",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "duration_in_seconds",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "recorded_date",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "response_id",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "recipient_last_name",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "recipient_first_name",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "recipient_email",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "location_latitude",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "location_longitude",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "user_language",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "consent_agreement",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "user_groups",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "interests_civil_rights",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "interests_free_speech",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "mastodon_account",
+      "description": null
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": null,
+      "name": "open_comments",
       "description": null
     }
   ],
