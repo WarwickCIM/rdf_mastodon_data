@@ -1,9 +1,10 @@
 # Prepares an anonymised and clean dataset to be used for the analysis.
 
 library(dplyr)
+library(forcats)
 library(janitor)
 
-filename <- "Mastodon+survey_March+24,+2023_09.44.csv"
+filename <- "Mastodon+survey_April+11,+2023_16.47.csv"
 
 
 # Question texts ----------------------------------------------------------
@@ -35,10 +36,15 @@ df_responses <- read.csv(paste0("data/raw/", filename), skip = 1,
   # At the beginning there wasn't any option not to specify that
   # people didn't have an account on any of the social media platforms from the
   # list. This should fix that
-  mutate(sn_accounts = case_when(grepl("non|^no", tolower(sn_accounts_other))
-                                 ~"None of the above",
+  mutate(sn_accounts = case_when(grepl("non|^no|(bug, can’t leave the question unanswered)", 
+                                       tolower(sn_accounts_other))
+                                 ~"Only Mastodon",
                                  .default = sn_accounts),
-         sn_accounts_other) |> 
+         sn_accounts_other = case_when(
+           grepl("dispora|*diaspora|diaspora*",  tolower(sn_accounts_other)) 
+           ~ "Diaspora",
+           .default = sn_accounts_other
+         )) |> 
   # Rename long columns
   rename(mastodon_motivation_new_social_network = mastodon_motivation_i_wanted_to_try_a_new_social_network, 
          mastodon_motivation_friends = mastodon_motivation_most_of_my_friends_and_people_i_follow_are_already_using_mastodon,
@@ -66,7 +72,16 @@ df_responses <- read.csv(paste0("data/raw/", filename), skip = 1,
          twitter_experience_harassment = twitter_experience_harassment_towards_certain_users,
          twitter_experience_hate_speech = twitter_experience_hate_speech_towards_certain_demographics,
          twitter_experience_alt_text = twitter_experience_image_descriptions_text_descriptions_for_visually_impaired,
-         twitter_experience_quality_conversations = twitter_experience_respectful_constructive_conversations)
+         twitter_experience_quality_conversations = twitter_experience_respectful_constructive_conversations) |> 
+  # Revalue responses
+  # Wrong term
+  mutate(across(starts_with("future_usage_"),  
+                \(x) fct_recode(x,
+                           "I will be using it as my only social platform" = "I will be using it as my only social network",
+                           "I will be using it as my main social platform" = "I will be using it as my main social network",
+                           "I will be using it as one of my social platforms" = "I will be using it as one of my social networks")
+  ))
+
 
 write.csv(df_responses, file = "data/responses_clean.csv", 
           row.names = FALSE)
@@ -95,3 +110,13 @@ df_comments <- read.csv(paste0("data/raw/", filename), skip = 1,
 
 write.csv(df_comments, "data/survey_comments.csv", 
           row.names = FALSE)
+
+
+# Network -----------------------------------------------------------------
+
+researchers <- df_responses |> 
+  select(user_groups, interest_networking, interest_research, mastodon_account) |> 
+  filter(grepl('Researcher', user_groups), 
+         interest_networking == "Yes",
+         !is.na(mastodon_account))
+
