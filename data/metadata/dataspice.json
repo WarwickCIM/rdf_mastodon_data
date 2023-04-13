@@ -18,18 +18,18 @@
       "name": "Nathaniel Tkacz"
     }
   ],
-  "description": null,
+  "description": "Survey aimed at understanding peoples' motivations to join Mastodon as well as their current experience and future usage. The dataset contains 820 responses and 107 variables.",
   "datePublished": "2023-06-01",
   "keywords": ["mastodon", "twitter", "platform migration", "fediverse", "survey"],
   "funder": "University of Warwick (Research Development Fund 2022/23)",
-  "temporalCoverage": "2023-02-18/2023-03-23",
+  "temporalCoverage": "2023-02-18/2023-04-13",
   "license": "Creative Commons Attribution-ShareAlike 4.0 International License",
   "spatialCoverage": {
     "type": "Place",
     "name": "Online distribution",
     "geo": {
       "type": "GeoShape",
-      "box": "64.7 173 -41.5 -108"
+      "box": "64.69 172.83 -41.5 -107.99"
     }
   },
   "variableMeasured": [
@@ -101,693 +101,579 @@
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "interests_politics",
-      "description": null
+      "description": "Q6: Could you indicate how important or unimportant the following topics are for you? (Free Speech)"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "interests_privacy_security",
-      "description": null
+      "description": "Q6: Could you indicate how important or unimportant the following topics are for you? (Free Speech)"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "interests_open_culture",
-      "description": null
+      "description": "Q6: Could you indicate how important or unimportant the following topics are for you? (Free Speech)"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "interests_free_libre_open_source_software",
-      "description": null
+      "description": "Q6: Could you indicate how important or unimportant the following topics are for you? (Free Speech)"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "interests_digital_sovereignty_autonomy",
-      "description": null
+      "description": "Q6: Could you indicate how important or unimportant the following topics are for you? (Free Speech)"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String",
       "name": "interests_other",
-      "description": null
+      "description": "Q7: OPTIONAL: Do you have any other interests which you think are relevant for this research and you want to share with us?"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "freedom_speech",
-      "description": null
+      "description": "Q8: According to you, which of these statements is closer to your notion of freedom speech?"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "Boolean",
       "name": "mastodon_user",
-      "description": null
+      "description": "Q9: Do you have at least one Mastodon account?"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "sn_accounts",
-      "description": null
+      "description": "Q10: Do you have (or have had) an account on any of these social media platforms?"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String",
       "name": "sn_accounts_other",
-      "description": null
+      "description": "Q11: If you selected \"other\", please specify them."
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "mastodon_discovery",
-      "description": null
+      "description": "Q13: How did you learn about Mastodon?"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "mastodon_age",
-      "description": null
+      "description": "Q14: When did you first create your Mastodon account?"
     },
     {
       "type": "PropertyValue",
       "unitText": null,
       "name": "start_date_month",
-      "description": null
+      "description": "Q15: When did you first join Mastodon?"
     },
     {
       "type": "PropertyValue",
       "unitText": null,
       "name": "start_date_day",
-      "description": null
+      "description": "Q15: When did you first join Mastodon?"
     },
     {
       "type": "PropertyValue",
       "unitText": null,
       "name": "start_date_year",
-      "description": null
+      "description": "Q15: When did you first join Mastodon?"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "mastodon_usage",
-      "description": null
+      "description": "Q16: How often are you currently using Mastodon?"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "interface",
-      "description": null
+      "description": "Q17: How do you access Mastodon?"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "app_desktop",
-      "description": null
+      "description": "Q18: Which Desktop app(s) do you usually use?"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "app_mobile",
-      "description": null
+      "description": "Q19: Which Mobile app(s) do you usually use?"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "mastodon_motivation_new_social_network",
-      "description": null
+      "description": "Q20: How decisive these factors were when you decided to join Mastodon? Social Network"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "mastodon_motivation_friends",
-      "description": null
+      "description": "Q20: How decisive these factors were when you decided to join Mastodon?"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "mastodon_motivation_code_of_conduct",
-      "description": null
+      "description": "Q20: How decisive these factors were when you decided to join Mastodon?"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "mastodon_motivation_sorting_content_by_date",
-      "description": null
+      "description": "Q20: How decisive these factors were when you decided to join Mastodon?"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "mastodon_motivation_moderation",
-      "description": null
+      "description": "Q20: How decisive these factors were when you decided to join Mastodon?"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "mastodon_motivation_mastodon_is_opensource",
-      "description": null
+      "description": "Q20: How decisive these factors were when you decided to join Mastodon?"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "mastodon_motivation_mastodon_is_federated",
-      "description": null
+      "description": "Q20: How decisive these factors were when you decided to join Mastodon?"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "mastodon_motivation_lack_of_advertisements",
-      "description": null
+      "description": "Q20: How decisive these factors were when you decided to join Mastodon?"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "mastodon_motivation_not_owned_by_a_big_company",
-      "description": null
+      "description": "Q20: How decisive these factors were when you decided to join Mastodon?"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "mastodon_motivation_500_characters",
-      "description": null
+      "description": "Q20: How decisive these factors were when you decided to join Mastodon?"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "mastodon_motivation_elon_musk",
-      "description": null
+      "description": "Q20: How decisive these factors were when you decided to join Mastodon?"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "mastodon_motivation_twitter_events",
-      "description": null
+      "description": "Q20: How decisive these factors were when you decided to join Mastodon?"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "mastodon_motivation_twitter_dissappear",
-      "description": null
+      "description": "Q20: How decisive these factors were when you decided to join Mastodon?"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "mastodon_motivation_twitter_dissatisfaction",
-      "description": null
+      "description": "Q20: How decisive these factors were when you decided to join Mastodon?"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "mastodon_motivation_truth_social_dissatisfaction",
-      "description": null
+      "description": "Q20: How decisive these factors were when you decided to join Mastodon?"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "Integer",
       "name": "mastodon_accounts",
-      "description": null
+      "description": "Q21: How many Mastodon accounts do you have?"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "mastodon_setup_choose_a_server_instance",
-      "description": null
+      "description": "Q22: Rate how easy or difficult was to perform the following tasks"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "mastodon_setup_create_an_account",
-      "description": null
+      "description": "Q22: Rate how easy or difficult was to perform the following tasks"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "mastodon_setup_find_people_to_follow",
-      "description": null
+      "description": "Q22: Rate how easy or difficult was to perform the following tasks"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "mastodon_setup_publish_content",
-      "description": null
+      "description": "Q22: Rate how easy or difficult was to perform the following tasks"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "mastodon_setup_interact_with_people",
-      "description": null
+      "description": "Q22: Rate how easy or difficult was to perform the following tasks"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "mastodon_setup_follow_trending_topics",
-      "description": null
+      "description": "Q22: Rate how easy or difficult was to perform the following tasks"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "mastodon_setup_tag_mention_other_users",
-      "description": null
+      "description": "Q22: Rate how easy or difficult was to perform the following tasks"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "instance_name",
-      "description": null
+      "description": "Q317: Select the name of your server(s)/instance(s)"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String",
       "name": "instance_name_other",
-      "description": null
+      "description": "Q23 (OPTIONAL): Please, write the name of your server(s)/instance(s) below"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "instance_criteria_geographical_location",
-      "description": null
+      "description": "Q24: Please state how important these aspects are for you when choosing your instance/server"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "instance_criteria_topic",
-      "description": null
+      "description": "Q24: Please state how important these aspects are for you when choosing your instance/server"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "instance_criteria_language",
-      "description": null
+      "description": "Q24: Please state how important these aspects are for you when choosing your instance/server"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "instance_criteria_code_of_conduct",
-      "description": null
+      "description": "Q24: Please state how important these aspects are for you when choosing your instance/server"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "instance_criteria_lgbt_friendly",
-      "description": null
+      "description": "Q24: Please state how important these aspects are for you when choosing your instance/server"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "instance_criteria_managers",
-      "description": null
+      "description": "Q24: Please state how important these aspects are for you when choosing your instance/server"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "instance_criteria_n_users",
-      "description": null
+      "description": "Q24: Please state how important these aspects are for you when choosing your instance/server"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "instance_criteria_free",
-      "description": null
+      "description": "Q24: Please state how important these aspects are for you when choosing your instance/server"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "instance_criteria_signup_approval",
-      "description": null
+      "description": "Q24: Please state how important these aspects are for you when choosing your instance/server"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "instance_criteria_mastodon_version",
-      "description": null
+      "description": "Q24: Please state how important these aspects are for you when choosing your instance/server"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "mastodon_experience_harassment",
-      "description": null
+      "description": "Q25: How often have you observed these situations on Mastodon?"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "mastodon_experience_hate_speech",
-      "description": null
+      "description": "Q25: How often have you observed these situations on Mastodon?"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "mastodon_experience_fake_news",
-      "description": null
+      "description": "Q25: How often have you observed these situations on Mastodon?"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "mastodon_experience_shadowbanning",
-      "description": null
+      "description": "Q25: How often have you observed these situations on Mastodon?"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "mastodon_experience_unwanted_content",
-      "description": null
+      "description": "Q25: How often have you observed these situations on Mastodon?"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "mastodon_experience_alt_text",
-      "description": null
+      "description": "Q25: How often have you observed these situations on Mastodon?"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "mastodon_experience_quality_conversations",
-      "description": null
+      "description": "Q25: How often have you observed these situations on Mastodon?"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "mastodon_rating_ease_of_use",
-      "description": null
+      "description": "Q26: Please, choose which option best describes each of the following statements"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "mastodon_rating_safe_space",
-      "description": null
+      "description": "Q26: Please, choose which option best describes each of the following statements"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "mastodon_rating_welcoming",
-      "description": null
+      "description": "Q26: Please, choose which option best describes each of the following statements"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "mastodon_rating_content",
-      "description": null
+      "description": "Q26: Please, choose which option best describes each of the following statements"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "mastodon_rating_people",
-      "description": null
+      "description": "Q26: Please, choose which option best describes each of the following statements"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "mastodon_rating_server_admin",
-      "description": null
+      "description": "Q26: Please, choose which option best describes each of the following statements"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "mastodon_rating_social_conventions",
-      "description": null
+      "description": "Q26: Please, choose which option best describes each of the following statements"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "satisfaction_mastodon",
-      "description": null
+      "description": "Q27: What's your current level of satisfaction with Mastodon?"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "future_usage_mastodon",
-      "description": null
+      "description": "Q28: Select the statement that best reflects how do you plan to use Mastodon in the near future"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String",
       "name": "masto_features_loved",
-      "description": null
+      "description": "Q29 OPTIONAL: What do you like the most of Mastodon so far?"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String",
       "name": "masto_features_hated",
-      "description": null
+      "description": "Q30 OPTIONAL: What do you like the least of Mastodon so far?"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "fedi_concepts_instance",
-      "description": null
+      "description": "Q32: How familiar are you with the following concepts: Instance"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "fedi_concepts_federation",
-      "description": null
+      "description": "Q32: How familiar are you with the following concepts: Federation"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "fedi_concepts_local_timeline",
-      "description": null
+      "description": "Q32: How familiar are you with the following concepts: Local timeline"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "fedi_concepts_federated_timeline",
-      "description": null
+      "description": "Q32: How familiar are you with the following concepts: federated timeline"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "fedi_concepts_fediverse",
-      "description": null
+      "description": "Q32: How familiar are you with the following concepts: fediverse"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "fedi_concepts_activity_pub",
-      "description": null
+      "description": "Q32: How familiar are you with the following concepts: activity pub"
     },
     {
       "type": "PropertyValue",
       "unitText": null,
       "name": "fedi_software",
-      "description": null
+      "description": "Q33: Can you name any other Fediverse's software/services?"
     },
     {
       "type": "PropertyValue",
       "unitText": null,
       "name": "twitter_age",
-      "description": null
+      "description": "Q34: How long have you been using Twitter?"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "twitter_experience_harassment",
-      "description": null
+      "description": "Q35: How often have you observed these situations on Twitter? (It doesn't necessarily mean that you have been the subject of those situations): Harassment"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "twitter_experience_hate_speech",
-      "description": null
+      "description": "Q35: How often have you observed these situations on Twitter? (It doesn't necessarily mean that you have been the subject of those situations)"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "twitter_experience_fake_news",
-      "description": null
+      "description": "Q35: How often have you observed these situations on Twitter? (It doesn't necessarily mean that you have been the subject of those situations)"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "twitter_experience_shadowbanning",
-      "description": null
+      "description": "Q35: How often have you observed these situations on Twitter? (It doesn't necessarily mean that you have been the subject of those situations)"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "twitter_experience_unwanted_content",
-      "description": null
+      "description": "Q35: How often have you observed these situations on Twitter? (It doesn't necessarily mean that you have been the subject of those situations)"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "twitter_experience_alt_text",
-      "description": null
+      "description": "Q35: How often have you observed these situations on Twitter? (It doesn't necessarily mean that you have been the subject of those situations)"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "String, Factor",
       "name": "twitter_experience_quality_conversations",
-      "description": null
+      "description": "Q35: How often have you observed these situations on Twitter? (It doesn't necessarily mean that you have been the subject of those situations)"
     },
     {
       "type": "PropertyValue",
       "unitText": null,
       "name": "satisfaction_twitter",
-      "description": null
+      "description": "Q36: What's your current level of satisfaction with Twitter?"
     },
     {
       "type": "PropertyValue",
       "unitText": null,
       "name": "future_usage_twitter",
-      "description": null
+      "description": "Q37: Select the statement that best reflects how do you plan to use Twitter in the near futur"
     },
     {
       "type": "PropertyValue",
       "unitText": null,
       "name": "interest_networking",
-      "description": null
+      "description": "Q39: Would you be interested in taking part of a network of researchers aimed at researching on Mastodon?  If so, write your mastodon handle /username below"
     },
     {
       "type": "PropertyValue",
       "unitText": null,
       "name": "interest_research",
-      "description": null
+      "description": "Q40: Would you be willing to be contacted for further research (i.e. participating in a focus group, informed about our developments...)"
     },
     {
       "type": "PropertyValue",
       "unitText": null,
       "name": "ip_city",
-      "description": null
+      "description": "Respondent's city, based on IP"
     },
     {
       "type": "PropertyValue",
       "unitText": null,
       "name": "user_agent",
-      "description": null
+      "description": "Respondent's user agent"
     },
     {
       "type": "PropertyValue",
       "unitText": null,
       "name": "ip_country",
-      "description": null
+      "description": "Respondent's country, based on IP"
     },
     {
       "type": "PropertyValue",
       "unitText": null,
       "name": "language",
-      "description": null
+      "description": "Respondent's browser language"
     },
     {
       "type": "PropertyValue",
       "unitText": null,
       "name": "source",
-      "description": null
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "start_date",
-      "description": null
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "end_date",
-      "description": null
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "ip_address",
-      "description": null
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "progress",
-      "description": null
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "duration_in_seconds",
-      "description": null
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "recorded_date",
-      "description": null
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "response_id",
-      "description": null
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "recipient_last_name",
-      "description": null
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "recipient_first_name",
-      "description": null
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "recipient_email",
-      "description": null
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "location_latitude",
-      "description": null
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "location_longitude",
-      "description": null
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "user_language",
-      "description": null
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "consent_agreement",
-      "description": null
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "user_groups",
-      "description": null
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "interests_civil_rights",
-      "description": null
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "interests_free_speech",
-      "description": null
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "mastodon_account",
-      "description": null
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "open_comments",
-      "description": null
+      "description": "Distribution channel"
     }
   ],
   "distribution": [
