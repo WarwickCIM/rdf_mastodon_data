@@ -10,215 +10,99 @@ responses_anonymised.csv,consent_agreement,Whether the respondent accepts partic
 responses_anonymised.csv,user_groups,Q5: Do you identify with any of these groups?  Select as many as needed,"String, Factor"
 responses_anonymised.csv,interests_civil_rights,Q6: Could you indicate how important or unimportant the following topics are for you? (Civil Rights),"String, Factor"
 responses_anonymised.csv,interests_free_speech,Q6: Could you indicate how important or unimportant the following topics are for you? (Free Speech),"String, Factor"
-responses_anonymised.csv,interests_politics,NA,NA
-responses_anonymised.csv,interests_privacy_security,NA,NA
-responses_anonymised.csv,interests_open_culture,NA,NA
-responses_anonymised.csv,interests_free_libre_open_source_software,NA,NA
-responses_anonymised.csv,interests_digital_sovereignty_autonomy,NA,NA
-responses_anonymised.csv,interests_other,NA,NA
-responses_anonymised.csv,freedom_speech,NA,NA
-responses_anonymised.csv,mastodon_user,NA,NA
-responses_anonymised.csv,sn_accounts,NA,NA
-responses_anonymised.csv,sn_accounts_other,NA,NA
-responses_anonymised.csv,mastodon_discovery,NA,NA
-responses_anonymised.csv,mastodon_age,NA,NA
-responses_anonymised.csv,start_date_month,NA,NA
-responses_anonymised.csv,start_date_day,NA,NA
-responses_anonymised.csv,start_date_year,NA,NA
-responses_anonymised.csv,mastodon_usage,NA,NA
-responses_anonymised.csv,interface,NA,NA
-responses_anonymised.csv,app_desktop,NA,NA
-responses_anonymised.csv,app_mobile,NA,NA
-responses_anonymised.csv,mastodon_motivation_new_social_network,NA,NA
-responses_anonymised.csv,mastodon_motivation_friends,NA,NA
-responses_anonymised.csv,mastodon_motivation_code_of_conduct,NA,NA
-responses_anonymised.csv,mastodon_motivation_sorting_content_by_date,NA,NA
-responses_anonymised.csv,mastodon_motivation_moderation,NA,NA
-responses_anonymised.csv,mastodon_motivation_mastodon_is_opensource,NA,NA
-responses_anonymised.csv,mastodon_motivation_mastodon_is_federated,NA,NA
-responses_anonymised.csv,mastodon_motivation_lack_of_advertisements,NA,NA
-responses_anonymised.csv,mastodon_motivation_not_owned_by_a_big_company,NA,NA
-responses_anonymised.csv,mastodon_motivation_500_characters,NA,NA
-responses_anonymised.csv,mastodon_motivation_elon_musk,NA,NA
-responses_anonymised.csv,mastodon_motivation_twitter_events,NA,NA
-responses_anonymised.csv,mastodon_motivation_twitter_dissappear,NA,NA
-responses_anonymised.csv,mastodon_motivation_twitter_dissatisfaction,NA,NA
-responses_anonymised.csv,mastodon_motivation_truth_social_dissatisfaction,NA,NA
-responses_anonymised.csv,mastodon_accounts,NA,NA
-responses_anonymised.csv,mastodon_setup_choose_a_server_instance,NA,NA
-responses_anonymised.csv,mastodon_setup_create_an_account,NA,NA
-responses_anonymised.csv,mastodon_setup_find_people_to_follow,NA,NA
-responses_anonymised.csv,mastodon_setup_publish_content,NA,NA
-responses_anonymised.csv,mastodon_setup_interact_with_people,NA,NA
-responses_anonymised.csv,mastodon_setup_follow_trending_topics,NA,NA
-responses_anonymised.csv,mastodon_setup_tag_mention_other_users,NA,NA
-responses_anonymised.csv,instance_name,NA,NA
-responses_anonymised.csv,instance_name_other,NA,NA
-responses_anonymised.csv,instance_criteria_geographical_location,NA,NA
-responses_anonymised.csv,instance_criteria_topic,NA,NA
-responses_anonymised.csv,instance_criteria_language,NA,NA
-responses_anonymised.csv,instance_criteria_code_of_conduct,NA,NA
-responses_anonymised.csv,instance_criteria_lgbt_friendly,NA,NA
-responses_anonymised.csv,instance_criteria_managers,NA,NA
-responses_anonymised.csv,instance_criteria_n_users,NA,NA
-responses_anonymised.csv,instance_criteria_free,NA,NA
-responses_anonymised.csv,instance_criteria_signup_approval,NA,NA
-responses_anonymised.csv,instance_criteria_mastodon_version,NA,NA
-responses_anonymised.csv,mastodon_experience_harassment,NA,NA
-responses_anonymised.csv,mastodon_experience_hate_speech,NA,NA
-responses_anonymised.csv,mastodon_experience_fake_news,NA,NA
-responses_anonymised.csv,mastodon_experience_shadowbanning,NA,NA
-responses_anonymised.csv,mastodon_experience_unwanted_content,NA,NA
-responses_anonymised.csv,mastodon_experience_alt_text,NA,NA
-responses_anonymised.csv,mastodon_experience_quality_conversations,NA,NA
-responses_anonymised.csv,mastodon_rating_ease_of_use,NA,NA
-responses_anonymised.csv,mastodon_rating_safe_space,NA,NA
-responses_anonymised.csv,mastodon_rating_welcoming,NA,NA
-responses_anonymised.csv,mastodon_rating_content,NA,NA
-responses_anonymised.csv,mastodon_rating_people,NA,NA
-responses_anonymised.csv,mastodon_rating_server_admin,NA,NA
-responses_anonymised.csv,mastodon_rating_social_conventions,NA,NA
-responses_anonymised.csv,satisfaction_mastodon,NA,NA
-responses_anonymised.csv,future_usage_mastodon,NA,NA
-responses_anonymised.csv,masto_features_loved,NA,NA
-responses_anonymised.csv,masto_features_hated,NA,NA
-responses_anonymised.csv,fedi_concepts_instance,NA,NA
-responses_anonymised.csv,fedi_concepts_federation,NA,NA
-responses_anonymised.csv,fedi_concepts_local_timeline,NA,NA
-responses_anonymised.csv,fedi_concepts_federated_timeline,NA,NA
-responses_anonymised.csv,fedi_concepts_fediverse,NA,NA
-responses_anonymised.csv,fedi_concepts_activity_pub,NA,NA
-responses_anonymised.csv,fedi_software,NA,NA
-responses_anonymised.csv,twitter_age,NA,NA
-responses_anonymised.csv,twitter_experience_harassment,NA,NA
-responses_anonymised.csv,twitter_experience_hate_speech,NA,NA
-responses_anonymised.csv,twitter_experience_fake_news,NA,NA
-responses_anonymised.csv,twitter_experience_shadowbanning,NA,NA
-responses_anonymised.csv,twitter_experience_unwanted_content,NA,NA
-responses_anonymised.csv,twitter_experience_alt_text,NA,NA
-responses_anonymised.csv,twitter_experience_quality_conversations,NA,NA
-responses_anonymised.csv,satisfaction_twitter,NA,NA
-responses_anonymised.csv,future_usage_twitter,NA,NA
-responses_anonymised.csv,interest_networking,NA,NA
-responses_anonymised.csv,interest_research,NA,NA
-responses_anonymised.csv,ip_city,NA,NA
-responses_anonymised.csv,user_agent,NA,NA
-responses_anonymised.csv,ip_country,NA,NA
-responses_anonymised.csv,language,NA,NA
-responses_anonymised.csv,source,NA,NA
-responses_clean.csv,start_date,NA,NA
-responses_clean.csv,end_date,NA,NA
-responses_clean.csv,ip_address,NA,NA
-responses_clean.csv,progress,NA,NA
-responses_clean.csv,duration_in_seconds,NA,NA
-responses_clean.csv,recorded_date,NA,NA
-responses_clean.csv,response_id,NA,NA
-responses_clean.csv,recipient_last_name,NA,NA
-responses_clean.csv,recipient_first_name,NA,NA
-responses_clean.csv,recipient_email,NA,NA
-responses_clean.csv,location_latitude,NA,NA
-responses_clean.csv,location_longitude,NA,NA
-responses_clean.csv,user_language,NA,NA
-responses_clean.csv,consent_agreement,NA,NA
-responses_clean.csv,user_groups,NA,NA
-responses_clean.csv,interests_civil_rights,NA,NA
-responses_clean.csv,interests_free_speech,NA,NA
-responses_clean.csv,interests_politics,NA,NA
-responses_clean.csv,interests_privacy_security,NA,NA
-responses_clean.csv,interests_open_culture,NA,NA
-responses_clean.csv,interests_free_libre_open_source_software,NA,NA
-responses_clean.csv,interests_digital_sovereignty_autonomy,NA,NA
-responses_clean.csv,interests_other,NA,NA
-responses_clean.csv,freedom_speech,NA,NA
-responses_clean.csv,mastodon_user,NA,NA
-responses_clean.csv,sn_accounts,NA,NA
-responses_clean.csv,sn_accounts_other,NA,NA
-responses_clean.csv,mastodon_discovery,NA,NA
-responses_clean.csv,mastodon_age,NA,NA
-responses_clean.csv,start_date_month,NA,NA
-responses_clean.csv,start_date_day,NA,NA
-responses_clean.csv,start_date_year,NA,NA
-responses_clean.csv,mastodon_usage,NA,NA
-responses_clean.csv,interface,NA,NA
-responses_clean.csv,app_desktop,NA,NA
-responses_clean.csv,app_mobile,NA,NA
-responses_clean.csv,mastodon_motivation_new_social_network,NA,NA
-responses_clean.csv,mastodon_motivation_friends,NA,NA
-responses_clean.csv,mastodon_motivation_code_of_conduct,NA,NA
-responses_clean.csv,mastodon_motivation_sorting_content_by_date,NA,NA
-responses_clean.csv,mastodon_motivation_moderation,NA,NA
-responses_clean.csv,mastodon_motivation_mastodon_is_opensource,NA,NA
-responses_clean.csv,mastodon_motivation_mastodon_is_federated,NA,NA
-responses_clean.csv,mastodon_motivation_lack_of_advertisements,NA,NA
-responses_clean.csv,mastodon_motivation_not_owned_by_a_big_company,NA,NA
-responses_clean.csv,mastodon_motivation_500_characters,NA,NA
-responses_clean.csv,mastodon_motivation_elon_musk,NA,NA
-responses_clean.csv,mastodon_motivation_twitter_events,NA,NA
-responses_clean.csv,mastodon_motivation_twitter_dissappear,NA,NA
-responses_clean.csv,mastodon_motivation_twitter_dissatisfaction,NA,NA
-responses_clean.csv,mastodon_motivation_truth_social_dissatisfaction,NA,NA
-responses_clean.csv,mastodon_accounts,NA,NA
-responses_clean.csv,mastodon_setup_choose_a_server_instance,NA,NA
-responses_clean.csv,mastodon_setup_create_an_account,NA,NA
-responses_clean.csv,mastodon_setup_find_people_to_follow,NA,NA
-responses_clean.csv,mastodon_setup_publish_content,NA,NA
-responses_clean.csv,mastodon_setup_interact_with_people,NA,NA
-responses_clean.csv,mastodon_setup_follow_trending_topics,NA,NA
-responses_clean.csv,mastodon_setup_tag_mention_other_users,NA,NA
-responses_clean.csv,instance_name,NA,NA
-responses_clean.csv,instance_name_other,NA,NA
-responses_clean.csv,instance_criteria_geographical_location,NA,NA
-responses_clean.csv,instance_criteria_topic,NA,NA
-responses_clean.csv,instance_criteria_language,NA,NA
-responses_clean.csv,instance_criteria_code_of_conduct,NA,NA
-responses_clean.csv,instance_criteria_lgbt_friendly,NA,NA
-responses_clean.csv,instance_criteria_managers,NA,NA
-responses_clean.csv,instance_criteria_n_users,NA,NA
-responses_clean.csv,instance_criteria_free,NA,NA
-responses_clean.csv,instance_criteria_signup_approval,NA,NA
-responses_clean.csv,instance_criteria_mastodon_version,NA,NA
-responses_clean.csv,mastodon_experience_harassment,NA,NA
-responses_clean.csv,mastodon_experience_hate_speech,NA,NA
-responses_clean.csv,mastodon_experience_fake_news,NA,NA
-responses_clean.csv,mastodon_experience_shadowbanning,NA,NA
-responses_clean.csv,mastodon_experience_unwanted_content,NA,NA
-responses_clean.csv,mastodon_experience_alt_text,NA,NA
-responses_clean.csv,mastodon_experience_quality_conversations,NA,NA
-responses_clean.csv,mastodon_rating_ease_of_use,NA,NA
-responses_clean.csv,mastodon_rating_safe_space,NA,NA
-responses_clean.csv,mastodon_rating_welcoming,NA,NA
-responses_clean.csv,mastodon_rating_content,NA,NA
-responses_clean.csv,mastodon_rating_people,NA,NA
-responses_clean.csv,mastodon_rating_server_admin,NA,NA
-responses_clean.csv,mastodon_rating_social_conventions,NA,NA
-responses_clean.csv,satisfaction_mastodon,NA,NA
-responses_clean.csv,future_usage_mastodon,NA,NA
-responses_clean.csv,masto_features_loved,NA,NA
-responses_clean.csv,masto_features_hated,NA,NA
-responses_clean.csv,fedi_concepts_instance,NA,NA
-responses_clean.csv,fedi_concepts_federation,NA,NA
-responses_clean.csv,fedi_concepts_local_timeline,NA,NA
-responses_clean.csv,fedi_concepts_federated_timeline,NA,NA
-responses_clean.csv,fedi_concepts_fediverse,NA,NA
-responses_clean.csv,fedi_concepts_activity_pub,NA,NA
-responses_clean.csv,fedi_software,NA,NA
-responses_clean.csv,twitter_age,NA,NA
-responses_clean.csv,twitter_experience_harassment,NA,NA
-responses_clean.csv,twitter_experience_hate_speech,NA,NA
-responses_clean.csv,twitter_experience_fake_news,NA,NA
-responses_clean.csv,twitter_experience_shadowbanning,NA,NA
-responses_clean.csv,twitter_experience_unwanted_content,NA,NA
-responses_clean.csv,twitter_experience_alt_text,NA,NA
-responses_clean.csv,twitter_experience_quality_conversations,NA,NA
-responses_clean.csv,satisfaction_twitter,NA,NA
-responses_clean.csv,future_usage_twitter,NA,NA
-responses_clean.csv,interest_networking,NA,NA
-responses_clean.csv,interest_research,NA,NA
-responses_clean.csv,mastodon_account,NA,NA
-responses_clean.csv,open_comments,NA,NA
-responses_clean.csv,ip_city,NA,NA
-responses_clean.csv,user_agent,NA,NA
-responses_clean.csv,ip_country,NA,NA
-responses_clean.csv,language,NA,NA
-responses_clean.csv,source,NA,NA
-survey_comments.csv,open_comments,NA,NA
+responses_anonymised.csv,interests_politics,Q6: Could you indicate how important or unimportant the following topics are for you? (Free Speech),"String, Factor"
+responses_anonymised.csv,interests_privacy_security,Q6: Could you indicate how important or unimportant the following topics are for you? (Free Speech),"String, Factor"
+responses_anonymised.csv,interests_open_culture,Q6: Could you indicate how important or unimportant the following topics are for you? (Free Speech),"String, Factor"
+responses_anonymised.csv,interests_free_libre_open_source_software,Q6: Could you indicate how important or unimportant the following topics are for you? (Free Speech),"String, Factor"
+responses_anonymised.csv,interests_digital_sovereignty_autonomy,Q6: Could you indicate how important or unimportant the following topics are for you? (Free Speech),"String, Factor"
+responses_anonymised.csv,interests_other,Q7: OPTIONAL: Do you have any other interests which you think are relevant for this research and you want to share with us?,String
+responses_anonymised.csv,freedom_speech,"Q8: According to you, which of these statements is closer to your notion of freedom speech?","String, Factor"
+responses_anonymised.csv,mastodon_user,Q9: Do you have at least one Mastodon account?,Boolean
+responses_anonymised.csv,sn_accounts,Q10: Do you have (or have had) an account on any of these social media platforms?,"String, Factor"
+responses_anonymised.csv,sn_accounts_other,"Q11: If you selected ""other"", please specify them.",String
+responses_anonymised.csv,mastodon_discovery,Q13: How did you learn about Mastodon?,"String, Factor"
+responses_anonymised.csv,mastodon_age,Q14: When did you first create your Mastodon account?,"String, Factor"
+responses_anonymised.csv,start_date_month,Q15: When did you first join Mastodon?,NA
+responses_anonymised.csv,start_date_day,Q15: When did you first join Mastodon?,NA
+responses_anonymised.csv,start_date_year,Q15: When did you first join Mastodon?,NA
+responses_anonymised.csv,mastodon_usage,Q16: How often are you currently using Mastodon?,"String, Factor"
+responses_anonymised.csv,interface,Q17: How do you access Mastodon?,"String, Factor"
+responses_anonymised.csv,app_desktop,Q18: Which Desktop app(s) do you usually use?,"String, Factor"
+responses_anonymised.csv,app_mobile,Q19: Which Mobile app(s) do you usually use?,"String, Factor"
+responses_anonymised.csv,mastodon_motivation_new_social_network,Q20: How decisive these factors were when you decided to join Mastodon? Social Network,"String, Factor"
+responses_anonymised.csv,mastodon_motivation_friends,Q20: How decisive these factors were when you decided to join Mastodon?,"String, Factor"
+responses_anonymised.csv,mastodon_motivation_code_of_conduct,Q20: How decisive these factors were when you decided to join Mastodon?,"String, Factor"
+responses_anonymised.csv,mastodon_motivation_sorting_content_by_date,Q20: How decisive these factors were when you decided to join Mastodon?,"String, Factor"
+responses_anonymised.csv,mastodon_motivation_moderation,Q20: How decisive these factors were when you decided to join Mastodon?,"String, Factor"
+responses_anonymised.csv,mastodon_motivation_mastodon_is_opensource,Q20: How decisive these factors were when you decided to join Mastodon?,"String, Factor"
+responses_anonymised.csv,mastodon_motivation_mastodon_is_federated,Q20: How decisive these factors were when you decided to join Mastodon?,"String, Factor"
+responses_anonymised.csv,mastodon_motivation_lack_of_advertisements,Q20: How decisive these factors were when you decided to join Mastodon?,"String, Factor"
+responses_anonymised.csv,mastodon_motivation_not_owned_by_a_big_company,Q20: How decisive these factors were when you decided to join Mastodon?,"String, Factor"
+responses_anonymised.csv,mastodon_motivation_500_characters,Q20: How decisive these factors were when you decided to join Mastodon?,"String, Factor"
+responses_anonymised.csv,mastodon_motivation_elon_musk,Q20: How decisive these factors were when you decided to join Mastodon?,"String, Factor"
+responses_anonymised.csv,mastodon_motivation_twitter_events,Q20: How decisive these factors were when you decided to join Mastodon?,"String, Factor"
+responses_anonymised.csv,mastodon_motivation_twitter_dissappear,Q20: How decisive these factors were when you decided to join Mastodon?,"String, Factor"
+responses_anonymised.csv,mastodon_motivation_twitter_dissatisfaction,Q20: How decisive these factors were when you decided to join Mastodon?,"String, Factor"
+responses_anonymised.csv,mastodon_motivation_truth_social_dissatisfaction,Q20: How decisive these factors were when you decided to join Mastodon?,"String, Factor"
+responses_anonymised.csv,mastodon_accounts,Q21: How many Mastodon accounts do you have?,Integer
+responses_anonymised.csv,mastodon_setup_choose_a_server_instance,Q22: Rate how easy or difficult was to perform the following tasks,"String, Factor"
+responses_anonymised.csv,mastodon_setup_create_an_account,Q22: Rate how easy or difficult was to perform the following tasks,"String, Factor"
+responses_anonymised.csv,mastodon_setup_find_people_to_follow,Q22: Rate how easy or difficult was to perform the following tasks,"String, Factor"
+responses_anonymised.csv,mastodon_setup_publish_content,Q22: Rate how easy or difficult was to perform the following tasks,"String, Factor"
+responses_anonymised.csv,mastodon_setup_interact_with_people,Q22: Rate how easy or difficult was to perform the following tasks,"String, Factor"
+responses_anonymised.csv,mastodon_setup_follow_trending_topics,Q22: Rate how easy or difficult was to perform the following tasks,"String, Factor"
+responses_anonymised.csv,mastodon_setup_tag_mention_other_users,Q22: Rate how easy or difficult was to perform the following tasks,"String, Factor"
+responses_anonymised.csv,instance_name,Q317: Select the name of your server(s)/instance(s),"String, Factor"
+responses_anonymised.csv,instance_name_other,"Q23 (OPTIONAL): Please, write the name of your server(s)/instance(s) below",String
+responses_anonymised.csv,instance_criteria_geographical_location,Q24: Please state how important these aspects are for you when choosing your instance/server,"String, Factor"
+responses_anonymised.csv,instance_criteria_topic,Q24: Please state how important these aspects are for you when choosing your instance/server,"String, Factor"
+responses_anonymised.csv,instance_criteria_language,Q24: Please state how important these aspects are for you when choosing your instance/server,"String, Factor"
+responses_anonymised.csv,instance_criteria_code_of_conduct,Q24: Please state how important these aspects are for you when choosing your instance/server,"String, Factor"
+responses_anonymised.csv,instance_criteria_lgbt_friendly,Q24: Please state how important these aspects are for you when choosing your instance/server,"String, Factor"
+responses_anonymised.csv,instance_criteria_managers,Q24: Please state how important these aspects are for you when choosing your instance/server,"String, Factor"
+responses_anonymised.csv,instance_criteria_n_users,Q24: Please state how important these aspects are for you when choosing your instance/server,"String, Factor"
+responses_anonymised.csv,instance_criteria_free,Q24: Please state how important these aspects are for you when choosing your instance/server,"String, Factor"
+responses_anonymised.csv,instance_criteria_signup_approval,Q24: Please state how important these aspects are for you when choosing your instance/server,"String, Factor"
+responses_anonymised.csv,instance_criteria_mastodon_version,Q24: Please state how important these aspects are for you when choosing your instance/server,"String, Factor"
+responses_anonymised.csv,mastodon_experience_harassment,Q25: How often have you observed these situations on Mastodon?,"String, Factor"
+responses_anonymised.csv,mastodon_experience_hate_speech,Q25: How often have you observed these situations on Mastodon?,"String, Factor"
+responses_anonymised.csv,mastodon_experience_fake_news,Q25: How often have you observed these situations on Mastodon?,"String, Factor"
+responses_anonymised.csv,mastodon_experience_shadowbanning,Q25: How often have you observed these situations on Mastodon?,"String, Factor"
+responses_anonymised.csv,mastodon_experience_unwanted_content,Q25: How often have you observed these situations on Mastodon?,"String, Factor"
+responses_anonymised.csv,mastodon_experience_alt_text,Q25: How often have you observed these situations on Mastodon?,"String, Factor"
+responses_anonymised.csv,mastodon_experience_quality_conversations,Q25: How often have you observed these situations on Mastodon?,"String, Factor"
+responses_anonymised.csv,mastodon_rating_ease_of_use,"Q26: Please, choose which option best describes each of the following statements","String, Factor"
+responses_anonymised.csv,mastodon_rating_safe_space,"Q26: Please, choose which option best describes each of the following statements","String, Factor"
+responses_anonymised.csv,mastodon_rating_welcoming,"Q26: Please, choose which option best describes each of the following statements","String, Factor"
+responses_anonymised.csv,mastodon_rating_content,"Q26: Please, choose which option best describes each of the following statements","String, Factor"
+responses_anonymised.csv,mastodon_rating_people,"Q26: Please, choose which option best describes each of the following statements","String, Factor"
+responses_anonymised.csv,mastodon_rating_server_admin,"Q26: Please, choose which option best describes each of the following statements","String, Factor"
+responses_anonymised.csv,mastodon_rating_social_conventions,"Q26: Please, choose which option best describes each of the following statements","String, Factor"
+responses_anonymised.csv,satisfaction_mastodon,Q27: What's your current level of satisfaction with Mastodon?,"String, Factor"
+responses_anonymised.csv,future_usage_mastodon,Q28: Select the statement that best reflects how do you plan to use Mastodon in the near future,"String, Factor"
+responses_anonymised.csv,masto_features_loved,Q29 OPTIONAL: What do you like the most of Mastodon so far?,String
+responses_anonymised.csv,masto_features_hated,Q30 OPTIONAL: What do you like the least of Mastodon so far?,String
+responses_anonymised.csv,fedi_concepts_instance,Q32: How familiar are you with the following concepts: Instance,"String, Factor"
+responses_anonymised.csv,fedi_concepts_federation,Q32: How familiar are you with the following concepts: Federation,"String, Factor"
+responses_anonymised.csv,fedi_concepts_local_timeline,Q32: How familiar are you with the following concepts: Local timeline,"String, Factor"
+responses_anonymised.csv,fedi_concepts_federated_timeline,Q32: How familiar are you with the following concepts: federated timeline,"String, Factor"
+responses_anonymised.csv,fedi_concepts_fediverse,Q32: How familiar are you with the following concepts: fediverse,"String, Factor"
+responses_anonymised.csv,fedi_concepts_activity_pub,Q32: How familiar are you with the following concepts: activity pub,"String, Factor"
+responses_anonymised.csv,fedi_software,Q33: Can you name any other Fediverse's software/services?,NA
+responses_anonymised.csv,twitter_age,Q34: How long have you been using Twitter?,NA
+responses_anonymised.csv,twitter_experience_harassment,Q35: How often have you observed these situations on Twitter? (It doesn't necessarily mean that you have been the subject of those situations): Harassment,"String, Factor"
+responses_anonymised.csv,twitter_experience_hate_speech,Q35: How often have you observed these situations on Twitter? (It doesn't necessarily mean that you have been the subject of those situations),"String, Factor"
+responses_anonymised.csv,twitter_experience_fake_news,Q35: How often have you observed these situations on Twitter? (It doesn't necessarily mean that you have been the subject of those situations),"String, Factor"
+responses_anonymised.csv,twitter_experience_shadowbanning,Q35: How often have you observed these situations on Twitter? (It doesn't necessarily mean that you have been the subject of those situations),"String, Factor"
+responses_anonymised.csv,twitter_experience_unwanted_content,Q35: How often have you observed these situations on Twitter? (It doesn't necessarily mean that you have been the subject of those situations),"String, Factor"
+responses_anonymised.csv,twitter_experience_alt_text,Q35: How often have you observed these situations on Twitter? (It doesn't necessarily mean that you have been the subject of those situations),"String, Factor"
+responses_anonymised.csv,twitter_experience_quality_conversations,Q35: How often have you observed these situations on Twitter? (It doesn't necessarily mean that you have been the subject of those situations),"String, Factor"
+responses_anonymised.csv,satisfaction_twitter,Q36: What's your current level of satisfaction with Twitter?,NA
+responses_anonymised.csv,future_usage_twitter,Q37: Select the statement that best reflects how do you plan to use Twitter in the near futur,NA
+responses_anonymised.csv,interest_networking,"Q39: Would you be interested in taking part of a network of researchers aimed at researching on Mastodon?  If so, write your mastodon handle /username below",NA
+responses_anonymised.csv,interest_research,"Q40: Would you be willing to be contacted for further research (i.e. participating in a focus group, informed about our developments...)",NA
+responses_anonymised.csv,ip_city,"Respondent's city, based on IP",NA
+responses_anonymised.csv,user_agent,Respondent's user agent,NA
+responses_anonymised.csv,ip_country,"Respondent's country, based on IP",NA
+responses_anonymised.csv,language,Respondent's browser language,NA
+responses_anonymised.csv,source,Distribution channel,NA
