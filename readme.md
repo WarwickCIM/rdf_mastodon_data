@@ -1,3 +1,5 @@
+[![](https://img.shields.io/badge/DOI-10.17605/OSF.IO/734YW-blue)](https://doi.org/10.17605/OSF.IO/734YW)
+
 Datasets created with [dataspice](https://docs.ropensci.org/dataspice/).
 
 Temporary url: <https://pages.github.warwick.ac.uk/CIM-Methods/rdf_mastodon_data/>
