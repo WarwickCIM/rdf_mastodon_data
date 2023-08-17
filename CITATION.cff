@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+authors:
+  - family-names: Cámara-Menoyo
+    given-names: Carlos
+    orcid: https://orcid.org/0000-0002-9378-0549
+title: "Survey dataset on the motivations, experiences and expectations of Mastodon users"
+version: 0.0.1
+doi: 10.17605/OSF.IO/734YW
+date-released: 2023-10-01
