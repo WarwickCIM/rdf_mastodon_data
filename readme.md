@@ -1,5 +1,7 @@
 [![](https://img.shields.io/badge/DOI-10.17605/OSF.IO/734YW-blue)](https://doi.org/10.17605/OSF.IO/734YW)
 
+# Survey dataset on the motivations, experiences and expectations of Mastodon users
+
 This repository contains different components derived from a Survey released between 13th January 2023 and 13th April 2023 aimed at understanding peoples' motivations to join Mastodon as well as their current experience and future usage:
 
 1. Anonymised Dataset with the survey responses. The dataset is a `csv` file containing 820 responses and 107 variables.
@@ -10,6 +12,12 @@ This repository contains different components derived from a Survey released bet
 You are free to reuse this dataset under the Licence conditions. If you use this dataset in your work, please cite it as below:
 
 > Cámara-Menoyo, C. (2023). Survey dataset on the motivations, experiences and expectations of Mastodon users (Version 0.0.1) [Dataset]. <https://doi.org/10.17605/OSF.IO/734YW>
+
+## Funding
+
+This is an output of _Researching Platform Migration: Twitter Decline and the Rise of Mastodon_, funded by the [University of Warwick](https://warwick.ac.uk/)'s Research Development Fund 2022/23 (Ref:HSSREC 95/22-23)
+
+![University of Warwick's logo](https://upload.wikimedia.org/wikipedia/commons/5/56/WarwickLogo.png)
 
 ## TODO
 
