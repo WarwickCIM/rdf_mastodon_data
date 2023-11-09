@@ -1,10 +1,33 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
 cff-version: 1.2.0
-message: "If you use this dataset, please cite it as below."
+title: >-
+  Survey dataset on the motivations, experiences and
+  expectations of Mastodon users
+message: 'If you use this dataset, please cite it as below.'
+type: dataset
 authors:
   - family-names: Cámara-Menoyo
     given-names: Carlos
-    orcid: https://orcid.org/0000-0002-9378-0549
-title: "Survey dataset on the motivations, experiences and expectations of Mastodon users"
+    orcid: 'https://orcid.org/0000-0002-9378-0549'
+    affiliation: University of Warwick
+identifiers:
+  - type: doi
+    value: 10.17605/OSF.IO/734YW
+repository-code: 'https://github.com/WarwickCIM/rdf_mastodon_data'
+url: 'https://warwickcim.github.io/rdf_mastodon_data/'
+abstract: >-
+  Anonymised Dataset with responses to a Survey released
+  between 13th January 2023 and 13th April 2023 aimed at
+  understanding peoples' motivations to join Mastodon as
+  well as their current experience and future usage. The
+  dataset contains 820 responses and 107 variables.
+keywords:
+  - survey
+  - social media
+  - mastodon
+  - fediverse
+license: CC-BY-SA-4.0
 version: 0.0.1
-doi: 10.17605/OSF.IO/734YW
-date-released: 2023-10-01
+date-released: '2023-10-01'
