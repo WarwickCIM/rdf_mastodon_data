@@ -15,9 +15,8 @@ You are free to reuse this dataset under the Licence conditions. If you use this
 
 ## Funding
 
-This is an output of _Researching Platform Migration: Twitter Decline and the Rise of Mastodon_, funded by the [University of Warwick](https://warwick.ac.uk/)'s Research Development Fund 2022/23 (Ref:HSSREC 95/22-23)
+This is an output of _Researching Platform Migration: Twitter Decline and the Rise of Mastodon_, funded by the [University of Warwick](https://warwick.ac.uk/)'s Research Development Fund 2022/23 (Ref:HSSREC 95/22-23), led by Carlos Cámara-Menoyo (PI) and Nathaniel Tkacz (Co-I)
 
-![University of Warwick's logo](https://upload.wikimedia.org/wikipedia/commons/5/56/WarwickLogo.png)
 
 ## TODO
 
