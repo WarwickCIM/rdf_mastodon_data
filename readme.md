@@ -16,20 +16,17 @@ You are free to reuse this dataset under the Licence conditions. If you use this
 For your convenience, we have also included a `CITATION.bib` file you may want to use to import it to your Reference Manager.
 
 ``` bibtex
-@dataset{Camara-Menoyo_The_Cyber_Expertise_2025,
+@dataset{Camara-Menoyo_Mastodon_survey_2023,
   title = {The {{Cyber Expertise Diversity Survey Dataset}}},
-  author = {{C{\'a}mara-Menoyo}, Carlos and Spencer, Matt and Monteath, Timothy},
-  year = {2025},
-  month = may,
-  publisher = {https://github.com/WarwickCIM/cyberexpertisediversity\_survey\_data},
-  doi = {10.17605/OSF.IO/GX7ME},
+  author = {{C{\'a}mara-Menoyo}, Carlos},
+  year = {2023},
+  publisher = {https://github.com/WarwickCIM/rdf_mastodon_data},
+  doi = {10.17605/OSF.IO/734YW},
   langid = {english}
 }
 ```
 
 ## About us
-
-## Funding
 
 This is an output of [*Researching Platform Migration: Twitter Decline and the Rise of Mastodon*](https://osf.io/ex8q6/), funded by the [University of Warwick](https://warwick.ac.uk/)'s Research Development Fund 2022/23 (Ref:HSSREC 95/22-23), led by Carlos Cámara-Menoyo (PI) and Nathaniel Tkacz (Co-I)
 
