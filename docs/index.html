@@ -685,7 +685,7 @@
     {
       "type": "DataDownload",
       "name": "responses_anonymised",
-      "contentUrl": "https://raw.githubusercontent.com/WarwickCIM/rdf_mastodon_data/main/data/responses_anonymised.csv?token=GHSAT0AAAAAAB5OHTRAHOSLZTRH3K3HBD24ZA5QJ3Q",
+      "contentUrl": "https://raw.githubusercontent.com/WarwickCIM/rdf_mastodon_data/main/data/responses_anonymised.csv",
       "encodingFormat": "csv"
     }
   ]
@@ -698,7 +698,7 @@
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
         margin: 0 auto;
         padding: 1rem;
-        max-width: 800px;
+        max-width: 960px;
       }
 
       #map {
@@ -707,7 +707,7 @@
 
       #attributes-wrapper,
       #jsonld-wrapper {
-        height: 20rem;
+        /* height: 20rem; */
         overflow-y: scroll;
       }
 
@@ -715,8 +715,29 @@
         border-collapse: collapse;
       }
 
+      table th:first-child, table td:first-child {
+        max-width: 250px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      table th:first-child, table td:first-child:hover {
+        /* overflow: visible;
+        background-color: #fff; */
+        max-width: 950px;
+      }
+
+      table td:first-child {
+        overflow-x: auto;
+        white-space: nowrap;
+      }
+
       th {
         border-bottom: 1px solid black;
+        background-color: white;
+        position: sticky;
+        top: 0; /* Don't forget this, required for the stickiness */
       }
 
       th, td {
@@ -735,6 +756,12 @@
         margin: 0 0 0 1.5rem;
         padding: 0;
       }
+
+      tr:nth-child(even) {
+        background-color: rgb(233, 243, 240);
+      }
+
+
     </style>
   </head>
   <body>
@@ -745,9 +772,15 @@
 
     <table class="listing">
       <tr>
+        <td>Citing</td>
+        <!-- <td>list(type = &quot;Person&quot;, id = &quot;0000-0002-9378-0549&quot;, email = &quot;carlos.camara@warwick.ac.uk&quot;, affiliation = &quot;University of Warwick&quot;, name = &quot;Carlos Cámara-Menoyo&quot;),list(type = &quot;Person&quot;, id = &quot;0000-0002-5796-4105&quot;, email = &quot;N.Tkacz@warwick.ac.uk&quot;, affiliation = &quot;University of Warwick&quot;, name = &quot;Nathaniel Tkacz&quot;)</td> -->
+        <td>Cámara-Menoyo, C. (2023). Survey dataset on the motivations, experiences and expectations of Mastodon users (Version 0.0.1) [Dataset]. <a href="https://doi.org/10.17605/OSF.IO/734YW">https://doi.org/10.17605/OSF.IO/734YW</a></td>
+      </tr>
+      <tr>
         <td>Published</td>
         <td>2023-06-01</td>
       </tr>
+
       <tr>
         <td>Keywords</td>
         <td>
@@ -768,6 +801,28 @@
         <td>License</td>
         <td>Creative Commons Attribution-ShareAlike 4.0 International License</td>
       </tr>
+      <tr>
+        <td>Repository</td>
+        <td><a href="https://github.com/WarwickCIM/rdf_mastodon_data">https://github.com/WarwickCIM/rdf_mastodon_data</a></td>
+      </tr>
+    </table>
+
+     <h2>Distribution</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>File</th>
+          <th>Format</th>
+          <th>&nbsp;</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><code>responses_anonymised</code></td>
+          <td><code>csv</code></td>
+          <td><a href="https://raw.githubusercontent.com/WarwickCIM/rdf_mastodon_data/main/data/responses_anonymised.csv">Download</a></td>
+        </tr>
+      </tbody>
     </table>
 
     <h2>Coverage</h2>
@@ -1339,24 +1394,13 @@
         </tbody>
       </table>
     </div>
-
-    <h2>Distribution</h2>
-    <table>
-      <thead>
-        <tr>
-          <th>File</th>
-          <th>Format</th>
-          <th>&nbsp;</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><code>responses_anonymised</code></td>
-          <td><code>csv</code></td>
-          <td><a href="https://raw.githubusercontent.com/WarwickCIM/rdf_mastodon_data/main/data/responses_anonymised.csv?token=GHSAT0AAAAAAB5OHTRAHOSLZTRH3K3HBD24ZA5QJ3Q">Download</a></td>
-        </tr>
-      </tbody>
-    </table>
+    
+    <div>
+      <h2>Licence</h2>
+      <p>
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+      </p>
+    </div>
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
   integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
