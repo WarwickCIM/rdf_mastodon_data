@@ -11,7 +11,7 @@
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
         margin: 0 auto;
         padding: 1rem;
-        max-width: 800px;
+        max-width: 960px;
       }
 
       #map {
@@ -20,12 +20,30 @@
 
       #attributes-wrapper,
       #jsonld-wrapper {
-        height: 20rem;
+        /* height: 20rem; */
         overflow-y: scroll;
       }
 
       table {
         border-collapse: collapse;
+      }
+
+      table th:first-child, table td:first-child {
+        max-width: 250px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      table th:first-child, table td:first-child:hover {
+        /* overflow: visible;
+        background-color: #fff; */
+        max-width: 950px;
+      }
+
+      table td:first-child {
+        overflow-x: auto;
+        white-space: nowrap;
       }
 
       th {
@@ -51,6 +69,12 @@
         margin: 0 0 0 1.5rem;
         padding: 0;
       }
+
+      tr:nth-child(even) {
+        background-color: rgb(233, 243, 240);
+      }
+
+
     </style>
   </head>
   <body>
@@ -61,9 +85,15 @@
 
     <table class="listing">
       <tr>
+        <td>Citing</td>
+        <!-- <td>{{creator}}</td> -->
+        <td>Cámara-Menoyo, C. (2023). Survey dataset on the motivations, experiences and expectations of Mastodon users (Version 0.0.1) [Dataset]. https://doi.org/10.17605/OSF.IO/734YW</td>
+      </tr>
+      <tr>
         <td>Published</td>
         <td>{{datePublished}}</td>
       </tr>
+
       <tr>
         <td>Keywords</td>
         <td>
@@ -82,8 +112,12 @@
         <td>License</td>
         <td>{{license}}</td>
       </tr>
+      <tr>
+        <td>Repository</td>
+        <td><a href="https://github.com/WarwickCIM/rdf_mastodon_data">https://github.com/WarwickCIM/rdf_mastodon_data</a></td>
+      </tr>
     </table>
-    
+
      <h2>Distribution</h2>
     <table>
       <thead>
