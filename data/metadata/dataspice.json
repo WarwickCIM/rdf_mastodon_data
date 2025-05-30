@@ -680,7 +680,7 @@
     {
       "type": "DataDownload",
       "name": "responses_anonymised",
-      "contentUrl": "https://raw.githubusercontent.com/WarwickCIM/rdf_mastodon_data/main/data/responses_anonymised.csv?token=GHSAT0AAAAAAB5OHTRAHOSLZTRH3K3HBD24ZA5QJ3Q",
+      "contentUrl": "https://raw.githubusercontent.com/WarwickCIM/rdf_mastodon_data/main/data/responses_anonymised.csv",
       "encodingFormat": "csv"
     }
   ]
