@@ -17,7 +17,7 @@ For your convenience, we have also included a `CITATION.bib` file you may want t
 
 ``` bibtex
 @dataset{Camara-Menoyo_Mastodon_survey_2023,
-  title = {The {{Cyber Expertise Diversity Survey Dataset}}},
+  title = {Survey dataset on the motivations, experiences and expectations of Mastodon users},
   author = {{C{\'a}mara-Menoyo}, Carlos},
   year = {2023},
   publisher = {https://github.com/WarwickCIM/rdf_mastodon_data},
